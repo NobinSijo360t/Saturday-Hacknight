@@ -1,0 +1,170 @@
+.buttons {
+  width: 233px;
+  height: 54px;
+  position: relative;
+  display: none;
+  z-index: 0;
+}
+.eventsSectionChild {
+  width: 640px;
+  height: 640px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1650px;
+  right: -432px;
+  filter: blur(500px);
+  border-radius: 50%;
+  background-color: var(--color-yellowgreen-300);
+}
+.hubNavigationParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 55px;
+  max-width: 100%;
+}
+.exploredAreas {
+  margin: 0;
+  height: 55px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.tinkerhubLogo {
+  width: 910px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent,
+.tinkerhubLink {
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1288px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 63px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--on-surface);
+  font-family: var(--font-clash-display);
+}
+.tinkerhubLink {
+  flex: 1;
+  align-items: flex-end;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: var(--gap-61xl);
+}
+.linkSeparator,
+.projectCardRow,
+.tinkerhubLink {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.linkSeparator {
+  width: 1303px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.projectCardRow {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-61xl);
+}
+.eventsSection,
+.projectCards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.projectCards {
+  width: 1302.5px;
+  flex-direction: row;
+  padding: 0 var(--padding-base) 70px;
+  max-width: 100%;
+}
+.eventsSection {
+  width: 100%;
+  position: relative;
+  background-color: #0d1018;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 62px var(--padding-7xs) var(--padding-base) var(--padding-49xl);
+  gap: 79px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .projectCards {
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+  .eventsSection {
+    padding-left: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .exploredAreas {
+    font-size: var(--font-size-21xl);
+  }
+  .projectCards {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .hubNavigationParent {
+    gap: var(--gap-8xl);
+  }
+  .frameParent {
+    gap: var(--gap-12xl);
+  }
+  .projectCardRow,
+  .tinkerhubLink {
+    gap: var(--gap-21xl);
+  }
+  .eventsSection {
+    gap: var(--gap-20xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .exploredAreas {
+    font-size: var(--font-size-11xl);
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .projectCardRow,
+  .tinkerhubLink {
+    gap: var(--gap-xl);
+  }
+  .projectCards {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .eventsSection {
+    gap: var(--gap-xl);
+  }
+}
