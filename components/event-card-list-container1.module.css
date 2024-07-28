@@ -1,0 +1,264 @@
+.background1 {
+  height: 479.6px;
+  width: 358.1px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.checkmarkIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.checkmarkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.span {
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.completedProjects {
+  position: relative;
+  line-height: 26.04px;
+  text-transform: uppercase;
+}
+.background,
+.backgroundGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  border-radius: 14.11px;
+  background-color: var(--background);
+  align-items: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xl);
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.background,
+.backgroundGroup {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.backgroundGroup {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  align-items: flex-end;
+  padding: var(--padding-197xl) var(--padding-21xl) var(--padding-196xl-6)
+    var(--padding-23xl);
+  flex-shrink: 0;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--on-surface);
+  width: 358px;
+  height: 288px;
+  align-items: flex-start;
+  padding: 0;
+}
+.events2fwiufoaayceehnmbevcr4Icon {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  width: 374px;
+  height: 187px;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.backgroundParent {
+  margin-left: -29.4px;
+  width: 374px;
+  height: 288px;
+  position: relative;
+  max-width: 119%;
+  flex-shrink: 0;
+}
+.engagespot {
+  width: 243px;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.completeNotification,
+.engagespotIsA,
+.infrastructureToBuild {
+  margin: 0;
+}
+.engagespotIsAContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 18px;
+  font-weight: 500;
+  transform: rotate(0.6deg);
+}
+.engagespotParent {
+  width: 276.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-1);
+  font-size: var(--font-size-xl);
+}
+.groupOfProjects {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.seeProjects {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+}
+.groupOfProjectsParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: 8px 6px;
+}
+.eventCardbuttondefaultpropInner {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  border: 1.5px solid var(--color-gray-300);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-2xs);
+}
+.eventCardbuttondefaultprop {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 96px;
+}
+.moreIcon {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.moreInfo {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+}
+.moreInfoContent,
+.moreInfoContentWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moreInfoContent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.moreInfoContentWrapper {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-4xl);
+}
+.eventCardbuttondefaultprop1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--on-surface);
+}
+.openCVButtons {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.eventCardevent20,
+.openCVButtonsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.openCVButtonsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-aliceblue);
+}
+.eventCardevent20 {
+  width: 358px;
+  flex-direction: column;
+  padding: 0 var(--padding-2xl) var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs-4);
+  max-width: 100%;
+}
+.container3,
+.eventCardListContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.container3 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.eventCardListContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base-2);
+  color: var(--on-surface);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1200px) {
+  .container3 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .engagespot {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .openCVButtons {
+    flex-wrap: wrap;
+  }
+}

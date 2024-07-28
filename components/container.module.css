@@ -1,0 +1,27 @@
+.container,
+.container5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.container5 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.container {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs) 0 var(--padding-sm);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base-2);
+  color: var(--on-surface);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1200px) {
+  .container5 {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,209 @@
+.background1 {
+  height: 479.6px;
+  width: 358.1px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.checkmarkIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.eventCardRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.span {
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.completedProjects {
+  position: relative;
+  line-height: 26.04px;
+  text-transform: uppercase;
+}
+.background,
+.eventCardLogos,
+.moreProjectsLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.eventCardLogos {
+  flex: 1;
+  border-radius: 14.11px;
+  background-color: var(--background);
+  align-items: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xl);
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.background,
+.moreProjectsLink {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.moreProjectsLink {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  align-items: flex-end;
+  padding: var(--padding-197xl) var(--padding-21xl) var(--padding-196xl-6)
+    var(--padding-23xl);
+  flex-shrink: 0;
+}
+.background {
+  align-self: stretch;
+  height: 288px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--on-surface);
+  align-items: flex-start;
+  padding: 0;
+}
+.andMachineLearning,
+.libraryIsAn,
+.opencvOrOpen {
+  margin: 0;
+}
+.opencvOrOpenContainer {
+  width: 380.5px;
+  position: absolute;
+  margin: 0 !important;
+  right: -44.51px;
+  bottom: 92.8px;
+  font-size: var(--font-size-mini);
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  transform: rotate(0.6deg);
+  transform-origin: 0 0;
+}
+.events2fzosbjurebwdxkpd9de1jIcon {
+  width: 407px;
+  height: 213px;
+  position: absolute;
+  margin: 0 !important;
+  top: 21px;
+  right: -36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.eventCardevent11 {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  font-size: var(--font-size-base-2);
+}
+.buildingFlutterApps {
+  width: 380.5px;
+  position: absolute;
+  margin: 0 !important;
+  right: -44.13px;
+  bottom: 128.8px;
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+  transform: rotate(0.6deg);
+  transform-origin: 0 0;
+}
+.eventCardevent12 {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.andMachineLearning1,
+.libraryIsAn1,
+.opencvOrOpen1 {
+  margin: 0;
+}
+.opencvOrOpenContainer1 {
+  width: 380.5px;
+  position: absolute;
+  margin: 0 !important;
+  right: -44.51px;
+  bottom: 92.8px;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  transform: rotate(0.6deg);
+  transform-origin: 0 0;
+}
+.eventCardevent13 {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.container0,
+.eventCardListContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.container0 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.eventCardListContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--on-surface);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1200px) {
+  .container0 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .moreProjectsLink {
+    padding-top: var(--padding-121xl);
+    padding-bottom: var(--padding-121xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .moreProjectsLink {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

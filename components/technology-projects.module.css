@@ -1,0 +1,448 @@
+.background1,
+.eventCardevent35 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.eventCardevent35 {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  gap: var(--gap-xs);
+}
+.background1 {
+  width: 358.1px;
+  height: 479.6px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  display: none;
+}
+.events2fwl1ctk0pzu16uutcnbr1Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.checkmarkIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.checkmarkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.span {
+  font-weight: 600;
+}
+.completedProjects {
+  position: relative;
+  line-height: 26.04px;
+  text-transform: uppercase;
+}
+.frameParent {
+  flex: 1;
+  border-radius: 14.11px;
+  background-color: var(--background);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-2xl);
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.background,
+.backgroundParent,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+}
+.background,
+.backgroundParent {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.backgroundParent {
+  height: 479.6px;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  flex-direction: column;
+  padding: var(--padding-50xl) var(--padding-13xl) var(--padding-196xl-6);
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+}
+.background {
+  align-self: stretch;
+  height: 288px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--on-surface);
+  flex-direction: row;
+  padding: 0;
+}
+.mapbox {
+  width: 243px;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.preciseLocationData,
+.toolsToChange {
+  margin: 0;
+}
+.preciseLocationDataContainer {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 18px;
+  font-weight: 500;
+  transform: rotate(0.6deg);
+}
+.mapboxParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  min-height: 76px;
+}
+.groupOfProjects {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.seeProjects {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+}
+.groupOfProjectsParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: 8px 6px;
+}
+.eventCardbuttondefaultpropInner {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  border: 1.5px solid var(--color-gray-300);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-2xs);
+}
+.eventCardbuttondefaultprop {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 96px;
+}
+.moreIcon {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.moreInfo {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+}
+.eventCardbuttondefaultpropChild,
+.moreParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moreParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.eventCardbuttondefaultpropChild {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-4xl);
+}
+.eventCardbuttondefaultprop1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--on-surface);
+}
+.eventCardbuttondefaultpropParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  width: 314.6px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-aliceblue);
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-20xl-3);
+  max-width: 100%;
+}
+.eventCardevent39,
+.eventCardevent39Inner {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.eventCardevent39Inner {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs);
+  font-size: var(--font-size-xl);
+}
+.eventCardevent39 {
+  width: 358px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  gap: var(--gap-xs);
+}
+.notion {
+  flex: 1;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+.notionWrapper {
+  width: 285.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) var(--padding-55xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.groupOfProjects1 {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.seeProjects1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+}
+.airtableProjectButtonConten {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: 8px 6px;
+}
+.airtableProjectButton,
+.eventCardbuttondefaultprop2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.airtableProjectButton {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  border: 1.5px solid var(--color-gray-300);
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-2xs);
+}
+.eventCardbuttondefaultprop2 {
+  flex: 1;
+  align-items: flex-start;
+  min-width: 96px;
+}
+.moreIcon1 {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.moreInfo1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+}
+.airtableMoreInfoButtonCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.airtableMoreInfoButtonContWrapper {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-4xl);
+}
+.eventCardbuttondefaultprop3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--on-surface);
+}
+.airtableButtonsContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.airtableButtonsContainerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl);
+  color: var(--color-aliceblue);
+}
+.connectNotionPages,
+.toolsYouUse,
+.workflows {
+  margin: 0;
+}
+.connectNotionPagesContainer {
+  width: 380.5px;
+  position: absolute;
+  margin: 0 !important;
+  right: -44.51px;
+  bottom: 92.8px;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  transform: rotate(0.6deg);
+  transform-origin: 0 0;
+}
+.eventCardevent40 {
+  width: 358px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-mini);
+}
+.eventCardevent38,
+.eventCardevent40,
+.technologyProjects {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.eventCardevent38 {
+  width: 358px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-xl);
+}
+.technologyProjects {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 80px 96px;
+  min-height: 1040px;
+  text-align: left;
+  font-size: var(--font-size-base-2);
+  color: var(--on-surface);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 750px) {
+  .backgroundParent {
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-121xl);
+    box-sizing: border-box;
+  }
+  .technologyProjects {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .mapbox {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .eventCardbuttondefaultpropParent {
+    flex-wrap: wrap;
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+  .notion {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .airtableButtonsContainer {
+    flex-wrap: wrap;
+  }
+  .technologyProjects {
+    gap: var(--gap-5xl);
+  }
+}

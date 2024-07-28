@@ -1,0 +1,867 @@
+.selenium {
+  width: 243px;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.browsers,
+.seleniumIsA {
+  margin: 0;
+}
+.seleniumIsAContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  transform: rotate(0.6deg);
+}
+.groupOfProjects {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.seeProjects1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+}
+.groupOfProjectsParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: 8px 6px;
+}
+.eventCardbuttondefaultpropInner {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  border: 1.5px solid var(--color-gray-300);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-2xs);
+}
+.eventCardbuttondefaultprop {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 96px;
+}
+.moreIcon {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.moreInfo {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+}
+.eventCardbuttondefaultpropChild,
+.moreParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moreParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.eventCardbuttondefaultpropChild {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-4xl);
+}
+.eventCardbuttondefaultprop1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--on-surface);
+}
+.linkContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.linkContainerWrapper,
+.seeProjects {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.linkContainerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-12xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-aliceblue);
+}
+.seeProjects {
+  flex-direction: column;
+  gap: var(--gap-9xs-5);
+  font-size: var(--font-size-lg);
+}
+.descriptions,
+.seeProjects,
+.techStack {
+  display: flex;
+  align-items: flex-start;
+}
+.techStack {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.descriptions {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lgi) 0 var(--padding-2xl);
+  font-size: var(--font-size-xl);
+}
+.eventCardevent16 {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.langchain,
+.langchainIsA {
+  position: relative;
+  text-transform: capitalize;
+}
+.langchain {
+  width: 243px;
+  line-height: 29px;
+  display: inline-block;
+}
+.langchainIsA {
+  align-self: stretch;
+  line-height: 18px;
+  font-weight: 500;
+  transform: rotate(0.6deg);
+}
+.groupOfProjects1 {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.seeProjects2 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+}
+.groupOfProjectsGroup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: 8px 6px;
+}
+.eventCardbuttondefaultprop2,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frameDiv {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  border: 1.5px solid var(--color-gray-300);
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-2xs);
+}
+.eventCardbuttondefaultprop2 {
+  flex: 1;
+  align-items: flex-start;
+  min-width: 96px;
+}
+.moreIcon1 {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.moreInfo1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+}
+.eventCardbuttondefaultpropInner1,
+.moreGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moreGroup {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.eventCardbuttondefaultpropInner1 {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-4xl);
+}
+.eventCardbuttondefaultprop3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--on-surface);
+}
+.eventCardbuttondefaultpropParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.eventCardbuttondefaultpropParent {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-lg);
+}
+.frameWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-6xs) 0 var(--padding-12xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-aliceblue);
+}
+.langchainIsAFrameworkDesigParent,
+.langchainParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.langchainIsAFrameworkDesigParent {
+  align-self: stretch;
+  gap: var(--gap-9xs-5);
+  font-size: var(--font-size-lg);
+}
+.langchainParent {
+  flex: 1;
+  gap: var(--gap-6xs);
+  max-width: 100%;
+}
+.eventCardevent17Inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mini) 0 var(--padding-2xl);
+  font-size: var(--font-size-xl);
+}
+.background1,
+.eventCardevent17,
+.eventCardevent17Inner {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.eventCardevent17 {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  gap: var(--gap-xs);
+}
+.background1 {
+  width: 358.1px;
+  height: 479.6px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  display: none;
+}
+.events2fsxlylcmf57mwwzuwh07gIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.checkmarkIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.checkmarkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.span {
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.completedProjects {
+  position: relative;
+  line-height: 26.04px;
+  text-transform: uppercase;
+}
+.frameContainer,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  flex: 1;
+  border-radius: 14.11px;
+  background-color: var(--background);
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xl);
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 var(--padding-sm);
+}
+.background,
+.backgroundParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.backgroundParent {
+  height: 479.6px;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-19xl) var(--padding-9xl) var(--padding-196xl-6)
+    var(--padding-8xl);
+  gap: var(--gap-2xs);
+  flex-shrink: 0;
+}
+.background {
+  align-self: stretch;
+  height: 288px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--on-surface);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+}
+.pytorch {
+  width: 243px;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameworkToDeliver,
+.onlyAFew,
+.streamlitIsAnOpenSource {
+  margin: 0;
+}
+.streamlitIsAnOpenSourceContainer {
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  transform: rotate(0.6deg);
+}
+.pytorchParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  min-height: 76px;
+}
+.groupOfProjects2 {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.seeProjects3 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: 8px 6px;
+}
+.eventCardbuttondefaultprop4,
+.projectButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.projectButtons {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  border: 1.5px solid var(--color-gray-300);
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-2xs);
+}
+.eventCardbuttondefaultprop4 {
+  flex: 1;
+  align-items: flex-start;
+  min-width: 96px;
+}
+.moreIcon2 {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.moreInfo2 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+}
+.infoButtonContainer,
+.moreContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moreContainer {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.infoButtonContainer {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-4xl);
+}
+.eventCardbuttondefaultprop5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--on-surface);
+}
+.eventCardbuttondefaultpropGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.frameGroup,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  width: 314.6px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-aliceblue);
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-20xl-4);
+  max-width: 100%;
+}
+.eventCardevent18Inner {
+  width: 346.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs);
+  font-size: var(--font-size-xl);
+}
+.background3,
+.eventCardevent18,
+.eventCardevent18Inner {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.eventCardevent18 {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  gap: var(--gap-xs);
+}
+.background3 {
+  width: 358.1px;
+  height: 479.6px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  display: none;
+}
+.events2fykj5aibplfa7uh6edzdxIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.checkmarkIcon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.checkmarkContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.span1 {
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.completedProjects1 {
+  position: relative;
+  line-height: 26.04px;
+  text-transform: uppercase;
+}
+.frameParent1 {
+  flex: 1;
+  border-radius: 14.11px;
+  background-color: var(--background);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-2xl);
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.background2,
+.backgroundGroup,
+.frameParent1,
+.frameWrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+}
+.background2,
+.backgroundGroup {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.backgroundGroup {
+  height: 479.6px;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  flex-direction: column;
+  padding: var(--padding-35xl) var(--padding-16xl) var(--padding-196xl-6);
+  gap: var(--gap-9xl);
+  flex-shrink: 0;
+}
+.background2 {
+  align-self: stretch;
+  height: 288px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--on-surface);
+  flex-direction: row;
+  padding: 0;
+}
+.pytorch1 {
+  width: 243px;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.pytorchIsAn {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.libraryBasedOn {
+  margin: 0;
+}
+.pytorchIsAnContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  transform: rotate(0.6deg);
+}
+.pytorchGroup {
+  align-self: stretch;
+  height: 93.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.groupOfProjects3 {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.seeProjects4 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+}
+.groupOfProjectsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: 8px 6px;
+}
+.eventCardbuttondefaultpropInner2 {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  border: 1.5px solid var(--color-gray-300);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-2xs);
+}
+.eventCardbuttondefaultprop6 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 96px;
+}
+.moreIcon3 {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.moreInfo3 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+}
+.eventCardbuttondefaultpropInner3,
+.moreParent1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moreParent1 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.eventCardbuttondefaultpropInner3 {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-4xl);
+}
+.eventCardbuttondefaultprop7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--on-surface);
+}
+.eventCardbuttondefaultpropContainer,
+.frameWrapper3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.eventCardbuttondefaultpropContainer {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-lg);
+}
+.frameWrapper3 {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-6xs) 0 var(--padding-12xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-aliceblue);
+}
+.eventCardevent14Inner,
+.frameParent2 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xl-5);
+}
+.eventCardevent14Inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base) 0 var(--padding-2xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.container,
+.eventCardevent14 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.eventCardevent14 {
+  width: 358px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.container {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 80px 106px;
+  min-height: 1040px;
+  text-align: left;
+  font-size: var(--font-size-base-2);
+  color: var(--on-surface);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 750px) {
+  .backgroundGroup,
+  .backgroundParent {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-121xl);
+    box-sizing: border-box;
+  }
+  .backgroundGroup {
+    padding-top: var(--padding-16xl);
+  }
+  .container {
+    gap: var(--gap-34xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .selenium {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .linkContainer {
+    flex-wrap: wrap;
+  }
+  .langchain {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .eventCardbuttondefaultpropParent {
+    flex-wrap: wrap;
+  }
+  .pytorch {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .eventCardbuttondefaultpropGroup {
+    flex-wrap: wrap;
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+  .pytorch1 {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .eventCardbuttondefaultpropContainer {
+    flex-wrap: wrap;
+  }
+  .container {
+    gap: var(--gap-7xl);
+  }
+}

@@ -1,0 +1,157 @@
+.opencv {
+  width: 243px;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.mainlyAimedAt,
+.opencvIsA {
+  margin: 0;
+}
+.opencvIsAContainer {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 18px;
+  font-weight: 500;
+  transform: rotate(0.6deg);
+  flex-shrink: 0;
+}
+.opencvParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  min-height: 76px;
+}
+.groupOfProjects {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.seeProjects {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+}
+.superTokenLink {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: 8px 6px;
+}
+.eventCardbuttondefaultprop,
+.superTokenMore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.superTokenMore {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  border: 1.5px solid var(--color-gray-300);
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-2xs);
+}
+.eventCardbuttondefaultprop {
+  flex: 1;
+  align-items: flex-start;
+  min-width: 96px;
+}
+.moreIcon {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.moreInfo {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+}
+.superTokenInfoLink,
+.superTokenLearn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.superTokenLearn {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.superTokenInfoLink {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-4xl);
+}
+.eventCardbuttondefaultprop1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--on-surface);
+}
+.discordDescription,
+.superTokenButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.superTokenButton {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-lg);
+}
+.discordDescription {
+  width: 314.6px;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-aliceblue);
+}
+.openAITechnology,
+.technologyDetails {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.openAITechnology {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-20xl-3);
+}
+.technologyDetails {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--on-surface);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 450px) {
+  .opencv {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .superTokenButton {
+    flex-wrap: wrap;
+  }
+  .openAITechnology {
+    gap: var(--gap-xl);
+  }
+}
