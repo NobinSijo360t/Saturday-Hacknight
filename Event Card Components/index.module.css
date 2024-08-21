@@ -1,0 +1,267 @@
+.background,
+.background1 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.background1 {
+  height: 482.9px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  flex-shrink: 0;
+  z-index: unset;
+}
+.background {
+  align-self: stretch;
+  height: 290px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--on-surface);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.groupOfProjects {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.seeProjects {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 600;
+  font-family: var(--font-clash-display);
+  color: var(--color-aliceblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 94px;
+}
+.groupOfProjectsParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: 8px 6px;
+}
+.eventCardbuttondefaultprop,
+.innerButtonContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.innerButtonContent {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  border: 1.5px solid var(--color-gray-300);
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-2xs);
+}
+.eventCardbuttondefaultprop {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  align-items: flex-start;
+}
+.moreIcon {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.moreInfo {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 600;
+  font-family: var(--font-clash-display);
+  color: var(--on-surface);
+  text-align: left;
+  display: inline-block;
+  min-width: 71px;
+}
+.eventCardbuttondefaultpropInner,
+.moreParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moreParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.eventCardbuttondefaultpropInner {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-4xl);
+}
+.eventCardbuttondefaultprop1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eventCardbuttondefaultpropParent,
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.eventCardbuttondefaultpropParent {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-lg);
+}
+.mainContent {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-4xl);
+}
+.events2fp4ogektuvpad4fs9erfgIcon {
+  height: 120px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.stateImage {
+  width: 274px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid);
+  box-sizing: border-box;
+}
+.checkmarkIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.checkmarkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.span {
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.completedProjects {
+  position: relative;
+  line-height: 26.04px;
+  text-transform: uppercase;
+}
+.completionStatus {
+  border-radius: 14.11px;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xl);
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.django {
+  flex: 1;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+.heading {
+  width: 243px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.djangoIsA,
+.thatEncouragesRapid {
+  margin: 0;
+}
+.djangoIsAContainer {
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  transform: rotate(0.6deg);
+}
+.descriptionContent {
+  align-self: stretch;
+  width: 279.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.projectDescription {
+  height: 75.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.eventCard,
+.eventCardstate6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.eventCardstate6 {
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -0.1px;
+  bottom: 0;
+  align-items: flex-end;
+  padding: var(--padding-47xl) var(--padding-23xl) 104.9px var(--padding-2xl);
+  gap: 37.5px;
+  width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-base-2);
+  color: var(--on-surface);
+  font-family: var(--font-clash-display);
+}
+.eventCard {
+  width: 358px;
+  max-width: 358px;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-smi);
+  position: relative;
+  gap: 135px;
+  max-height: 480px;
+  line-height: normal;
+  letter-spacing: normal;
+}
